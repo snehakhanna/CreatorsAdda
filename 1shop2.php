@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Books</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">CreatorsAdda</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index2.php">HOME
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index1.php">BLOGS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="video1.php">TUTORIALS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop1.php">PRODUCTS</a>
+            </li>
+<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#"><?php
+            session_start();
+                  echo $_SESSION['sess_user'];
+                  ?></a>
+              </li>
+               <li class="nav-item">
+              <a class="nav-link" href="signout.php">SIGN OUT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <!-- Page Heading -->
+      <h1 class="my-4">BOOKS
+        
+      </h1>
+
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="img/28.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="checkout.php" style="color:#f05f40">Daily Painting: Paint Small and Often To Become a More Creative, Productive, and Successful Artist</a>
+              </h4>
+                <h6>Rs 230.00</h6>
+              <p class="text-justify">Have you landed in a frustrating rut? Are you having trouble selling paintings in galleries, getting bogged down by projects you can’t seem to finish or abandon, or finding excuses to avoid working in the studio? Author Carol Marine knows exactly how you feel—she herself suffered from painter’s block, until she discovered “daily painting.”</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="img/32.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="checkout.php" style="color:#f05f40">Artist's Painting Techniques: Explore Watercolours, Acrylics, and Oils</a>
+              </h4>
+                <h6>Rs 200.00</h6>
+              <p class="text-justify">Whether you're trying your hand at painting for the first time or honing your artistic ability, Artist's Painting Techniques is the handiest guide to teach you how to paint.
+Starting with the basics such as observational skills and learning how to draw, Artist's Painting Techniques will guide you into working with watercolours, acrylics, and oil paints. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="img/25.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="checkout.php" style="color:#f05f40">Nails, Nails, Nails!: 25 Creative DIY Nail Art Projects</a>
+              </h4>
+                <h6>Rs 330.00</h6>
+              <p class="text-justify">Gone are the days of the classic French manicure—today it's all about nail art. In Nails, Nails, Nails!, Los Angeles–based stylist Madeline Poole presents 25 nail art projects in a range of fabulous looks: leopard print, plaid, stripes, stained glass, lace, glitter, and more! </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="img/30.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="checkout.php" style="color:#f05f40">Everyday Watercolor: Learn to Paint Watercolor in 30 Days</a>
+              </h4>
+                <h6>Rs 140.00</h6>
+              <p class="text-justify" >A contemporary paint-every-day watercolor guide that explores foundational strokes and patterns and then builds new skills upon the foundations over the course of 30 days to create finished pieces. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="img/23.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="checkout.php" style="color:#f05f40">Get Inspired Beauty Ed. 9 - 120 Decorated Nails</a>
+              </h4>
+                <h6>Rs 250.00</h6>
+              <p class="text-justify">In this edition, we separate beautiful models for you who love your hands. That's why having nails always beautiful is crucial. As "nail art" is getting higher, look at this issue several options to make your nails much more interesting, are 120 options nails decorated for you to dare and abuse.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="img/21.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="checkout.php" style="color:#f05f40">Adult Coloring Book: Mandala Seasons</a>
+              </h4>
+                <h6>Rs 300.00</h6>
+              <p class="text-justify">This adult coloring book contains 25 floral patterns. Some are similar to designs in our other books, but most are original and are only available in this ebook.Coloring is a form of art therapy, a creative calming technique that aids in de-stressing and relaxation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Pagination -->
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="1shop1.php">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="1shop2.php">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="1shop3.php">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-light">
+      <div class="container">
+        <p class="m-0 text-center text-black">Copyright &copy; CreatorsAdda</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
